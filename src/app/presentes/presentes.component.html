@@ -1,0 +1,9 @@
+<div class="box">
+  <p class="titulo">Lista de presentes</p>
+  <div class="produto" *ngFor="let presente of presentes" >
+    <img [src]="presente.imagem">
+    <h1>{{presente.nome}}</h1>
+    <h2>{{presente.preco | currency: 'BRL'}}</h2>
+    <a routerLink="/pagamento/{{presente.id}}"><button>Presentear</button></a>
+  </div>
+</div>

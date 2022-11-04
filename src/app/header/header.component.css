@@ -1,0 +1,25 @@
+
+header{
+  background-color: rgb(181, 231, 244);
+  padding: 3% 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 120px;
+  padding: 0% 3%;
+}
+
+h1{ 
+  font-size: 7em;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+p{
+  font-size: 1.5em;
+  padding: 3% 0%;
+  text-align: center;
+}
+

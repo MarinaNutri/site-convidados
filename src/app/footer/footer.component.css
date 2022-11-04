@@ -1,0 +1,10 @@
+footer{
+  background-color: black;
+  display: flex;
+  padding: 1%;
+  justify-content: center;
+}
+img {
+  width: 40px;
+  padding-right: 8%;
+}

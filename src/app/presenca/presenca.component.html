@@ -1,0 +1,12 @@
+<div class="box">
+  <img [src]="icoPresenca">
+  <h1>Confirme a sua presença!</h1>
+</div>
+<div class="select">
+  <select>
+    <option>Selecione o seu nome</option>
+    <option *ngFor="let convidado of convidados" (selected)="handleOptionSelected($event.target)" [value]="convidado.telefone">{{convidado.nome}}</option>
+  </select>
+  <button (click)="confirmarPresenca()">Confirmar</button>
+</div>
+ 

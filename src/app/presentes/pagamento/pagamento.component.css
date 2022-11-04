@@ -1,0 +1,42 @@
+h1 {
+  font-size: 2.2rem;
+  padding: 1rem;
+  font-weight: bold; 
+  text-align: center;
+  margin-top: 3rem;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+}
+img {
+  width: 30%;
+  align-items: center;
+}
+.div2{
+  padding: 1rem;
+}
+p {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+.titulo{
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(91, 91, 93);
+}
+button {
+  margin: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(41, 39, 45);
+}
+input{
+  width: 2rem;
+}
+ .valorFinal{
+  font-weight: bold;
+  font-size: 1.5rem;
+ }

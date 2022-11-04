@@ -1,0 +1,19 @@
+<h1>Pagamento</h1>  
+<main>
+  <img [src]="presente?.imagem">
+  <div class="div2">
+    <p class="titulo">{{presente?.nome}}</p>
+    <p>* Os noivos receberão o valor em dinheiro.<br>Caso haja presentes repetidos, o valor será destinado à outro ítem da lista.</p>
+    <br>
+    <p>Preço: {{presente?.preco | currency: 'BRL'}}</p>
+    <p>
+      Quantidade:
+      <input type="number" min="1" [(ngModel)]="quantidade">
+    </p>
+    <br>
+    <p class="valorFinal">Valor final: {{calculoPrecoFinal(presente?.id, quantidade)| currency: 'BRL'}}</p>
+    <br>
+    <button>Pagar com pix</button>
+    <button>Pagar por boleto</button>
+  </div>
+</main>
